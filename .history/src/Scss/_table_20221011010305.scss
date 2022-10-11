@@ -1,0 +1,37 @@
+.table {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   order: 2;
+   flex: 3 1 !important;
+   padding: 20px;
+   .btn-deck-card {
+      @include buttonStyles();
+      background-color: $button-deck;
+      padding: 10px 130px;
+      margin-bottom: 10px;
+   }
+
+   .btn-action {
+      .btn {
+         @include buttonStyles();
+         margin-right: 5px;
+         padding: 5px 10px;
+         width: 90px;
+         cursor: pointer;
+      }
+      .btn-shuffle {
+         background-color: $button-shuffle;
+      }
+      .btn-draw {
+         background-color: $button-draw;
+      }
+      .btn-reveal {
+         background-color: $button-reveal;
+      }
+      .btn-reset {
+         background-color: $button-reset;
+      }
+   }
+}

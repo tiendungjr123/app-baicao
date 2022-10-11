@@ -1,0 +1,27 @@
+import React, { useState } from 'react';
+import img_6H from '../assets/images/6H.png';
+import img_7C from '../assets/images/7C.png';
+import img_QH from '../assets/images/QH.png';
+const Card = ({ listCard }) => {
+   const filterCard = listCard.slice(0, 3);
+
+   return (
+
+      <div className='card'>
+         {filterCard.map((card) => (
+            <>
+               <div className='card-img'>
+                  <img src={card.image} alt="6h" />
+                  <img className='img-center' src={card.image} alt="7c" />
+                  <img src={card.image} alt="qh" />
+               </div>
+               <p className='point'>Point: 15000</p>
+               <p className='user'>Dung</p>
+               <p className='point'>Point of 3 cards: 23</p>
+            </>
+         ))}
+      </div>
+   );
+}
+
+export default Card;

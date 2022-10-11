@@ -1,0 +1,31 @@
+.card {
+   @include cardStyles();
+
+   .card-img {
+      text-align: center;
+         img {
+            width: 70px;
+            margin-right: -20px;
+            height: 80px;
+         }
+         img:nth-child(2) {
+            margin-bottom: 10px;
+         }
+      
+   }
+
+   p {
+      margin: 0;
+      padding: 4px;
+      font-size: 20px;
+      color: $text-color-user;
+   }
+
+   .point {
+      font-weight: 400;
+   }
+
+   .user {
+      font-weight: bold;
+   }
+}

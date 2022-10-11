@@ -1,0 +1,11 @@
+.table{
+   height: 100vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+   .btn-deck-card{
+      background-color: $button-deck;
+   }
+}

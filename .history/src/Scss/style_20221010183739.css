@@ -1,0 +1,45 @@
+.table {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.table .btn-deck-card {
+  border: 2px solid #DFE8DE;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #673299;
+  padding: 10px 130px;
+  margin-bottom: 10px;
+}
+.table .btn-action .btn {
+  border: 2px solid #DFE8DE;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 5px;
+  padding: 5px 10px;
+  width: 90px;
+  cursor: pointer;
+}
+.table .btn-action .btn-shuffle {
+  background-color: #008101;
+}
+.table .btn-action .btn-draw {
+  background-color: #FFBF18;
+}
+.table .btn-action .btn-reveal {
+  background-color: #262627;
+}
+.table .btn-action .btn-reset {
+  background-color: #dd142f;
+}
+
+body {
+  background-color: #015F00;
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+.table{
+   height: 100vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+   .btn-deck-card{
+      background-color: $button-deck;
+      border: 2px solid $boder-line-color;
+      border-radius: 5px;
+      color: $text-color-button;
+      font-size: 12px;
+      font-weight: 400;
+   }
+}

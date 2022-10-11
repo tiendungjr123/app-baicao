@@ -1,0 +1,109 @@
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  order: 2;
+  flex: 3 1 !important;
+}
+.table .btn-deck-card {
+  border: 2px solid #DFE8DE;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #673299;
+  padding: 10px 130px;
+  margin-bottom: 10px;
+}
+.table .btn-action .btn {
+  border: 2px solid #DFE8DE;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 5px;
+  padding: 5px 10px;
+  width: 90px;
+  cursor: pointer;
+}
+.table .btn-action .btn-shuffle {
+  background-color: #008101;
+}
+.table .btn-action .btn-draw {
+  background-color: #FFBF18;
+}
+.table .btn-action .btn-reveal {
+  background-color: #262627;
+}
+.table .btn-action .btn-reset {
+  background-color: #dd142f;
+}
+
+.card {
+  background-color: #DEB986;
+  padding: 20px 20px;
+  width: 200px;
+  height: 170px;
+  border: 2px solid #DFE8DE;
+  border-radius: 5px;
+  text-align: left;
+}
+.card .card-img {
+  text-align: center;
+}
+.card .card-img img {
+  width: 70px;
+  margin-right: -20px;
+  height: 80px;
+}
+.card .card-img img:nth-child(2) {
+  margin-bottom: 10px;
+}
+.card p {
+  margin: 0;
+  padding: 4px;
+  font-size: 20px;
+  color: #002C31;
+}
+.card .point {
+  font-weight: 400;
+}
+.card .user {
+  font-weight: bold;
+}
+
+body {
+  background-color: #015F00;
+}
+
+.app {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.app > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.card-top {
+  display: flex;
+  justify-content: center;
+}
+
+.card-bottom {
+  order: 4;
+  display: flex;
+  justify-content: center;
+}
+
+.card-right {
+  order: 3;
+  flex: 1 0 0;
+}
+
+.card-left {
+  order: 1;
+  flex: 1 0 0;
+}/*# sourceMappingURL=style.css.map */

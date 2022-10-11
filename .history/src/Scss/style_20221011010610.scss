@@ -1,0 +1,39 @@
+@import '_variables.scss';
+@import '_mixins';
+@import '_table.scss';
+@import 'card.scss';
+
+body{
+   background-color: $main-color;
+}
+.app {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.app > * {
+   padding: 10px;
+   flex: 1 100%;
+}
+
+.card-top{
+   display: flex;
+   justify-content: center;
+}
+
+.card-bottom {
+   order: 4;
+   display: flex;
+   justify-content: center;
+}
+
+.card-right{
+   order: 1;
+   flex: 1 0 0;
+}
+
+.card-left{
+   order: 3;
+   flex: 1 0 0;
+}
+

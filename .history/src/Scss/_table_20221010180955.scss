@@ -1,0 +1,34 @@
+.table {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+   .btn-deck-card {
+      border: 2px solid $boder-line-color;
+      border-radius: 20px;
+      color: $text-color-button;
+      font-size: 20px;
+      font-weight: 400;
+      background-color: $button-deck;
+      padding: 10px 130px;
+      margin-bottom: 10px;
+   }
+
+   .btn-action {
+      .btn {
+         border: 2px solid $boder-line-color;
+         border-radius: 20px;
+         color: $text-color-button;
+         font-size: 20px;
+         font-weight: 400;
+         margin-right: 5px;
+         padding: 5px 10px;
+         width: 90px;
+      }
+      .btn-shuffle{
+         background-color: $button-shuffle;
+      }
+   }
+}

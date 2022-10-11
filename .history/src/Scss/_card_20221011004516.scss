@@ -1,0 +1,26 @@
+.card{
+   background-color: $table-user-color;
+   padding: 20px 20px;
+   width: 200px;
+   height: 180px;
+   border: 2px solid $boder-line-color;
+   border-radius: 5px;
+   text-align: left;
+   .card-img{
+      text-align: center;
+      img{
+         width: 70px;
+         height: 60px;  
+         margin-right: -20px;
+         
+      }
+      .img-center{
+         margin-bottom: 10px;
+      }
+   }
+
+   p{
+      margin: 0;
+      padding: 4px;
+   }
+}

@@ -1,0 +1,10 @@
+.card{
+   background-color: $table-user-color;
+   padding: 10px 10px;
+   .card-img{
+      img{
+         width: 50px;
+         margin-right: -2px;
+      }
+   }
+}
